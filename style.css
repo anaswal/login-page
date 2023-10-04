@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,300;0,500;1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+}
+
+.left {
+  width: 35%;
+  background-image: url("./img/bg.jpg");
+  background-size: 100%;
+}
+
+img {
+  width: 10%;
+}
+
+.title {
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  margin-top: 150px;
+}
+
+.right {
+  width: 65%;
+}
