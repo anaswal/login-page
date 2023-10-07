@@ -21,12 +21,25 @@ img {
   width: 10%;
 }
 
+.logo {
+  width: 20%;
+}
+
 .title {
   color: white;
   background: rgba(0, 0, 0, 0.5);
   margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Pacifico";
+  color: #ede7e3;
 }
 
 .right {
   width: 65%;
+  background-color: #f8f9fa;
 }
