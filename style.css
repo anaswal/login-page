@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -19,6 +20,51 @@ body {
 
 img {
   width: 10%;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 0.7rem;
+  font-weight: normal;
+}
+
+input:valid {
+  border: 1px solid green;
+}
+
+/* input:invalid {
+  border: 1px solid red;
+} */
+
+.validation {
+  color: red;
+  font-size: 0.7rem;
+}
+
+input {
+  border: 1px solid #e7ecef;
+  width: 120%;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button {
+  padding: 10px 40px;
+  border: none;
+  border-radius: 5px;
+  margin: 20px 0;
+  background-color: #023047;
+  color: white;
+  cursor: pointer;
 }
 
 .logo {
@@ -42,4 +88,46 @@ h1 {
 .right {
   width: 65%;
   background-color: #f8f9fa;
+  padding-top: 100px;
+}
+
+.content {
+  width: 75%;
+}
+
+.content > p {
+  font-size: 1.2rem;
+}
+
+.paragraph {
+  margin-left: 50px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.form-container {
+  width: 65vw;
+  background-color: white;
+  padding: 30px 50px;
+}
+
+.form-container-child {
+  display: flex;
+  gap: 100px;
+}
+
+a {
+  color: #023047;
+}
+
+.match {
+  color: green;
+}
+
+.not-match {
+  color: red;
 }

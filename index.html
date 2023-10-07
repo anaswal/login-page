@@ -14,7 +14,7 @@
       </div>
     </div>
     <div class="right">
-      <div class="content">
+      <div class="content paragraph">
         <p>
           This is not a real online service! You know you need something like
           this in your life to help you realize your deepest dream. Sign up now
@@ -23,30 +23,46 @@
         <p>You <em>know</em> you want to.</p>
       </div>
       <div class="content">
-        <p>Let's do this!</p>
         <form action="#" method="post">
           <div class="form-container">
-            <div class="group">
-              <label for="first-name">FIRST NAME</label>
-              <input type="text" id="first-name" />
-              <label for="email">EMAIL</label>
-              <input type="email" id="email" />
-              <label for="password">PASSWORD</label>
-              <input type="password" id="password" />
-            </div>
-            <div class="group">
-              <label for="last-name">LAST NAME</label>
-              <input type="text" id="last-name" />
-              <label for="phone">PHONE NUMBER</label>
-              <input type="number" id="phone" />
-              <label for="password-con">CONFIRM PASSWORD</label>
-              <input type="password" id="password-con" />
+            <p>Let's do this!</p>
+            <div class="form-container-child">
+              <div class="group">
+                <div class="form">
+                  <label for="first-name">FIRST NAME</label>
+                  <input type="text" id="first-name" required />
+                </div>
+                <div class="form">
+                  <label for="email">EMAIL</label>
+                  <input type="email" id="email" required />
+                </div>
+                <div class="form">
+                  <label for="password">PASSWORD</label>
+                  <input type="password" id="password" required />
+                </div>
+              </div>
+              <div class="group">
+                <div class="form">
+                  <label for="last-name">LAST NAME</label>
+                  <input type="text" id="last-name" required />
+                </div>
+                <div class="form">
+                  <label for="phone">PHONE NUMBER</label>
+                  <input type="number" id="phone" required />
+                </div>
+                <div class="form">
+                  <label for="password-con">CONFIRM PASSWORD</label>
+                  <input type="password" id="password-con" required />
+                  <div class="validation"></div>
+                </div>
+              </div>
             </div>
           </div>
-          <button type="submit">Create Account</button>
+          <button type="submit" class="paragraph">Create Account</button>
         </form>
+        <p class="paragraph">Already have an account? <a href="#">Login</a></p>
       </div>
-      <p>Already have an account? <a href="#">Login</a></p>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
